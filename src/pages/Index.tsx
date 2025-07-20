@@ -88,7 +88,7 @@ const Index = () => {
             <Button 
               variant="outline" 
               className="border-white/20 text-white hover:bg-white/10"
-              href="https://drive.google.com/file/d/1kexcJgkcsXF8cos9_bvqu-tMuDKQShoO/view?usp=share_link"
+              onClick={() => window.open('https://drive.google.com/file/d/1kexcJgkcsXF8cos9_bvqu-tMuDKQShoO/view?usp=share_link', '_blank')}
             >
               Download Resume
             </Button>

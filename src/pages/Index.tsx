@@ -47,18 +47,21 @@ const Index = () => {
             {/* Caly AI Image */}
             <div className="w-full">
               <img 
-                src="/assets/caly-ai-card.png" 
+                src="/public/calyai.png" 
                 alt="Caly AI - Schedule Anything In Seconds by Chat" 
                 className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+                href="https://calyai.xyz"
               />
             </div>
             
             {/* Jobseeker Software Image */}
             <div className="w-full">
               <img 
-                src="/assets/jobseeker-hrms-card.png" 
+                src="/public/js.png" 
                 alt="Jobseeker HRMS - Your All In One HR Solution" 
                 className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+                href="https://jobseeker.software/"
+
               />
             </div>
           </div>

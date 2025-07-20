@@ -1,5 +1,4 @@
 import { SocialButton } from "@/components/SocialButton";
-import { ProductCard } from "@/components/ProductCard";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -45,21 +44,23 @@ const Index = () => {
       <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
-            <ProductCard
-              subtitle="Built Solo from 0 to 1"
-              title="Schedule Anything In Seconds by Chat"
-              description="Caly AI runs on Telegram & WhatsApp. It books meetings, sets reminders, and updates your Calendar. No UI. No apps. Just chat."
-              image="/lovable-uploads/88f2b331-bd64-4411-9c83-73b27ff6970b.png"
-              variant="blue"
-            />
+            {/* Caly AI Image */}
+            <div className="w-full">
+              <img 
+                src="/assets/caly-ai-card.png" 
+                alt="Caly AI - Schedule Anything In Seconds by Chat" 
+                className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              />
+            </div>
             
-            <ProductCard
-              subtitle="Scaled ATS to Full Stack HRMS + ESS"
-              title="Your All In One HR Solution"
-              description="Everything from recruitment, employee management, shifts, reimbursement, payroll, overtime, to tax report."
-              image="/lovable-uploads/88f2b331-bd64-4411-9c83-73b27ff6970b.png"
-              variant="purple"
-            />
+            {/* Jobseeker Software Image */}
+            <div className="w-full">
+              <img 
+                src="/assets/jobseeker-hrms-card.png" 
+                alt="Jobseeker HRMS - Your All In One HR Solution" 
+                className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              />
+            </div>
           </div>
         </div>
       </section>

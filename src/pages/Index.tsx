@@ -22,19 +22,19 @@ const Index = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
-            <SocialButton variant="linkedin" href="#">
+            <SocialButton variant="linkedin" href="https://www.linkedin.com/in/rizky-sutanto/">
               LinkedIn
             </SocialButton>
-            <SocialButton variant="twitter" href="#">
+            <SocialButton variant="twitter" href="https://x.com/rizkysutanto_">
               X / Twitter
             </SocialButton>
-            <SocialButton variant="email" href="#">
+            <SocialButton variant="email" href="mailto:work.rizkysutanto@gmail.com">
               Email
             </SocialButton>
-            <SocialButton variant="whatsapp" href="#">
+            <SocialButton variant="whatsapp" href="wa.me/+628998656730">
               WhatsApp
             </SocialButton>
-            <SocialButton variant="resume" href="#">
+            <SocialButton variant="resume" href="https://drive.google.com/file/d/1kexcJgkcsXF8cos9_bvqu-tMuDKQShoO/view?usp=share_link">
               Resume
             </SocialButton>
           </div>
@@ -88,6 +88,7 @@ const Index = () => {
             <Button 
               variant="outline" 
               className="border-white/20 text-white hover:bg-white/10"
+              href="https://drive.google.com/file/d/1kexcJgkcsXF8cos9_bvqu-tMuDKQShoO/view?usp=share_link"
             >
               Download Resume
             </Button>
@@ -104,13 +105,13 @@ const Index = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
-            <SocialButton variant="linkedin" href="#">
+            <SocialButton variant="linkedin" href="https://www.linkedin.com/in/rizky-sutanto/">
               LinkedIn
             </SocialButton>
-            <SocialButton variant="whatsapp" href="#">
+            <SocialButton variant="whatsapp" href="wa.me/+628998656730">
               WhatsApp
             </SocialButton>
-            <SocialButton variant="email" href="#">
+            <SocialButton variant="email" href="mailto:work.rizkysutanto@gmail.com">
               Email
             </SocialButton>
           </div>

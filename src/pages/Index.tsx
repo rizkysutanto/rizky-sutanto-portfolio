@@ -46,23 +46,24 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Caly AI Image */}
             <div className="w-full">
-              <img 
-                src="/public/calyai.png" 
-                alt="Caly AI - Schedule Anything In Seconds by Chat" 
-                className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
-                href="https://calyai.xyz"
-              />
+              <a href="https://calyai.xyz" target="_blank" rel="noopener noreferrer">
+                <img 
+                  src="/calyai.png" 
+                  alt="Caly AI - Schedule Anything In Seconds by Chat" 
+                  className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+                />
+              </a>
             </div>
             
             {/* Jobseeker Software Image */}
             <div className="w-full">
-              <img 
-                src="/public/js.png" 
-                alt="Jobseeker HRMS - Your All In One HR Solution" 
-                className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
-                href="https://jobseeker.software/"
-
-              />
+              <a href="https://jobseeker.software/" target="_blank" rel="noopener noreferrer">
+                <img 
+                  src="/js.png" 
+                  alt="Jobseeker HRMS - Your All In One HR Solution" 
+                  className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+                />
+              </a>
             </div>
           </div>
         </div>

@@ -30,7 +30,7 @@ const Index = () => {
             <SocialButton variant="email" href="mailto:work.rizkysutanto@gmail.com">
               Email
             </SocialButton>
-            <SocialButton variant="whatsapp" href="wa.me/+628998656730">
+            <SocialButton variant="whatsapp" href="https://api.whatsapp.com/send/?phone=%2B628998656730&text&type=phone_number&app_absent=0">
               WhatsApp
             </SocialButton>
             <SocialButton variant="resume" href="https://drive.google.com/file/d/1kexcJgkcsXF8cos9_bvqu-tMuDKQShoO/view?usp=share_link">
@@ -113,7 +113,7 @@ const Index = () => {
             <SocialButton variant="linkedin" href="https://www.linkedin.com/in/rizky-sutanto/">
               LinkedIn
             </SocialButton>
-            <SocialButton variant="whatsapp" href="wa.me/+628998656730">
+            <SocialButton variant="whatsapp" href="https://api.whatsapp.com/send/?phone=%2B628998656730&text&type=phone_number&app_absent=0">
               WhatsApp
             </SocialButton>
             <SocialButton variant="email" href="mailto:work.rizkysutanto@gmail.com">

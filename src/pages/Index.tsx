@@ -5,8 +5,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Header Section */}
-      <section className="pt-20 pb-16 px-6">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="pt-20 pb-16 px-6 transition-all duration-500 hover:bg-white/5 hover:shadow-2xl hover:shadow-primary/10 rounded-2xl mx-4">
+        <div className="max-w-4xl mx-auto text-center animate-fade-in">
           <h1 className="text-lg font-medium text-muted-foreground mb-4">
             Rizky Sutanto
           </h1>
@@ -41,27 +41,27 @@ const Index = () => {
       </section>
 
       {/* Product Showcase Section */}
-      <section className="py-16 px-6">
+      <section className="py-16 px-6 transition-all duration-700 hover:bg-gradient-to-br hover:from-primary/5 hover:to-transparent rounded-2xl mx-4 group">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
             {/* Caly AI Image */}
-            <div className="w-full">
+            <div className="w-full transform transition-all duration-500 hover:scale-105 hover:-translate-y-2">
               <a href="https://calyai.xyz" target="_blank" rel="noopener noreferrer">
                 <img 
                   src="/calyai.png" 
                   alt="Caly AI - Schedule Anything In Seconds by Chat" 
-                  className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+                  className="w-full h-auto rounded-lg shadow-lg hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500 cursor-pointer"
                 />
               </a>
             </div>
             
             {/* Jobseeker Software Image */}
-            <div className="w-full">
+            <div className="w-full transform transition-all duration-500 hover:scale-105 hover:-translate-y-2">
               <a href="https://jobseeker.software/" target="_blank" rel="noopener noreferrer">
                 <img 
                   src="/js.png" 
                   alt="Jobseeker HRMS - Your All In One HR Solution" 
-                  className="w-full h-auto rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+                  className="w-full h-auto rounded-lg shadow-lg hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500 cursor-pointer"
                 />
               </a>
             </div>
@@ -70,29 +70,29 @@ const Index = () => {
       </section>
 
       {/* Professional Summary Section */}
-      <section className="py-16 px-6">
+      <section className="py-16 px-6 transition-all duration-600 hover:bg-white/5 hover:shadow-xl hover:shadow-primary/5 rounded-2xl mx-4 group">
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-3xl font-bold mb-8">Professional Summary</h3>
+          <h3 className="text-3xl font-bold mb-8 transition-all duration-300 group-hover:text-primary">Professional Summary</h3>
           
-          <div className="space-y-6 text-muted-foreground leading-relaxed">
-            <p>
+          <div className="space-y-6 text-muted-foreground leading-relaxed transition-all duration-500 group-hover:text-muted-foreground/90">
+            <p className="transform transition-all duration-500 hover:translate-x-2 hover:text-foreground/80">
               Product & Project Manager with 6 years of experience, currently Head of B2B Product at Jobseeker 
               Company. Lead end-to-end product strategy and execution for B2B HRMS platforms generating 71% of 
               company revenue (IDR 1B+ ARR). Delivered end-to-end SaaS product solutions for enterprise clients 
               including Super Indo, Paramount Land, and FTI, driving 10K+ (IDR 28K+ ARR, 93% on-time rate). Scaled core product from ATS to full HRMS + ESS, driving 10% ARR growth.
             </p>
             
-            <p>
+            <p className="transform transition-all duration-500 hover:translate-x-2 hover:text-foreground/80">
               Built and launched CalyAI (calyai.xyz) solo on weekends — an AI scheduling assistant that lets users 
               manage calendars by chat. Integrated with Google Calendar, Google Meet, and Gemini LLM, handling 
               external invites, natural language, scheduling, and automated meeting links.
             </p>
           </div>
           
-          <div className="mt-8">
+          <div className="mt-8 transform transition-all duration-500 hover:scale-105">
             <Button 
               variant="outline" 
-              className="border-white/20 text-white hover:bg-white/10"
+              className="border-white/20 text-white hover:bg-white/10 hover:shadow-lg hover:shadow-primary/20 transition-all duration-300"
               onClick={() => window.open('https://drive.google.com/file/d/1kexcJgkcsXF8cos9_bvqu-tMuDKQShoO/view?usp=share_link', '_blank')}
             >
               Download Resume
@@ -102,14 +102,14 @@ const Index = () => {
       </section>
 
       {/* Connect Section */}
-      <section className="py-16 px-6">
+      <section className="py-16 px-6 transition-all duration-600 hover:bg-white/5 hover:shadow-xl hover:shadow-primary/5 rounded-2xl mx-4 group">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-3xl font-bold mb-4">Connect for Collaboration</h3>
-          <p className="text-muted-foreground mb-8">
+          <h3 className="text-3xl font-bold mb-4 transition-all duration-300 group-hover:text-primary">Connect for Collaboration</h3>
+          <p className="text-muted-foreground mb-8 transition-all duration-500 group-hover:text-foreground/80">
             I'm open to global product roles, freelance work, or product collaborations.
           </p>
           
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-4 transform transition-all duration-500 group-hover:scale-105">
             <SocialButton variant="linkedin" href="https://www.linkedin.com/in/rizky-sutanto/">
               LinkedIn
             </SocialButton>

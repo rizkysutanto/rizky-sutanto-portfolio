@@ -78,8 +78,7 @@ const Index = () => {
             <p className="transform transition-all duration-500 hover:translate-x-2 hover:text-foreground/80 slide-in-from-left slide-in-delay-5">
               Product & Project Manager with 6 years of experience, currently Head of B2B Product at Jobseeker 
               Company. Lead end-to-end product strategy and execution for B2B HRMS platforms generating 71% of 
-              company revenue (IDR 1B+ ARR). Delivered end-to-end SaaS product solutions for enterprise clients 
-              including Super Indo, Paramount Land, and FTI, driving 10K+ (IDR 28K+ ARR, 93% on-time rate). Scaled core product from ATS to full HRMS + ESS, driving 10% ARR growth.
+              company revenue (IDR 1B+ ARR). Delivered end-to-end SaaS project solutions for enterprise clients including Super Indo, Paramount Land, and FIT HUB (IDR 800M+ ARR, 87.5% on-time rate). Scaled core product from ATS to full HRMS + ESS, driving 10% ARR growth.
             </p>
             
             <p className="transform transition-all duration-500 hover:translate-x-2 hover:text-foreground/80 slide-in-from-left slide-in-delay-6">
